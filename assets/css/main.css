@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(65deg, black 15%, lightblue 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(65deg, black 15%, lightblue 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(65deg, black 15%, lightblue 85%);
+		background-image: url("images/overlay.png"), linear-gradient(65deg, black 15%, lightblue 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2299,11 +2299,11 @@ input, select, textarea {
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #303030;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: lightblue;
 		}
 
 		.icon.style5 {
@@ -2619,6 +2619,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		width: 100%;
 	}
 
 		ul.icons li {
@@ -3546,10 +3547,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #efa8b0, lightblue, grey);
+			background-image: -webkit-linear-gradient(90deg, #efa8b0, lightblue, grey);
+			background-image: -ms-linear-gradient(90deg, #efa8b0, lightblue, grey);
+			background-image: linear-gradient(90deg, #efa8b0, lightblue, grey);
 		}
 
 		#main table tbody tr {
