@@ -1852,7 +1852,14 @@ input, select, textarea {
 		text-decoration: none;
 		white-space: nowrap;
 	}
-
+	
+	.site {
+		display: flex;
+		flex: wrap;
+	}
+	.site a {
+		margin-right: 2%;
+	}
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
