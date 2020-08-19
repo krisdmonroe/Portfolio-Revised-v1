@@ -1860,6 +1860,10 @@ input, select, textarea {
 	.site a {
 		margin-right: 2%;
 	}
+
+	.imageB {
+		width:100%;
+	}
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
@@ -1922,7 +1926,9 @@ input, select, textarea {
 			.button {
 				min-width: 0;
 			}
-
+			.site {
+				display: block;
+			}
 		}
 
 	input[type="submit"],
